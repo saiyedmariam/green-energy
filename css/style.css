@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu:wght@300;700&display=swap');
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+h1,
+h2,
+h3 {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.logo {
+    display: inline-block;
+  }
+  
+  .logo img {
+    width: 100px;
+    height: auto;
+  }
+
+header {
+
+    background-image: url("https://pixabay.com/illustrations/energy-wind-wind-power-wind-energy-7669088/");
+    background-size: cover;
+    color: #fff;
+    text-align: center;
+    padding: 2rem;
+}
+
+.navbar {
+    background: rgb(68, 139, 97);
+    background: linear-gradient(90deg, rgba(68, 139, 97, 1) 19%, rgba(0, 245, 73, 1) 38%, rgba(68, 139, 97, 1) 94%);
+    backdrop-filter: tranparent;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    line-height: 3rem;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+nav li a {
+    text-decoration: none;
+    color: #000;
+}
+
+main {
+    padding: 2rem;
+}
+
+.content {
+    text-align: center;
+}
+
+button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    margin: 0.5rem;
+    border: none;
+    background-color: var(green);
+    color: #fff;
+    cursor: pointer;
+}
+
+
+main {
+    padding: 20px;
+    background: rgb(68, 139, 97);
+    background: linear-gradient(90deg, rgba(68, 139, 97, 1) 19%, rgba(0, 245, 73, 1) 38%, rgba(68, 139, 97, 1) 94%);
+
+}
+
+.active-button {
+    background-color: var(grey);
+}
+
+a#active {
+    opacity: 0.4;
+    cursor: default;
+    filter: grayscale(1);
+}
+
+.switch-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 2rem;
+}
+
+.content {
+    padding: 2rem;
+}
+
+.switch-heading {
+    text-align: center;
+}
+
+.switch-button i {
+    padding: 1rem;
+    border-radius: 20px;
+    min-width: 2rem;
+    text-align: center;
+    color: white;
+    min-height: 2rem;
+}
+
+.solution-content {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.footer {
+    position: relative;
+}
+
+.footer .box-container {
+    border: .1rem solid #20F711;
+    border-radius: .5rem;
+    background: #ffffff;
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin: 2;
+
+}
+
+.footer .box-container .box {
+    flex: 1 1 20rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .box-container .box h3 {
+    border: 1px solid #ffffff;
+    border-radius: 10px 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    font-size: 2.5rem;
+    padding-bottom: 1.5rem;
+    text-align: center;
+}
+
+.footer .box-container .box a {
+    color: #4CAF50;
+    font-size: 1.5rem;
+    padding-bottom: 1.5rem;
+    display: block;
+    text-decoration: none;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.footer .box-container .box a:hover {
+    color: #10510b;
+}
+
+.footer .box-container .box img {
+    height: 200px;
+    width: 300px;
+    border-radius: 50px;
+    margin: 5;
+    align-items: center;
+}
+
+.container {
+    max-width: 60rem;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #4CAF50;
+    background-color: #ffffff;
+}
+
+
+.container p {
+    font-weight: bold;
+    font-display: initial;
+    font-variant-numeric: ordinal;
+}
+
+.sol {
+    border: 3px solid #ffffff;
+    background: rgb(68, 139, 97);
+    background: linear-gradient(90deg, rgba(68, 139, 97, 1) 19%, rgba(0, 245, 73, 1) 38%, rgba(68, 139, 97, 1) 94%);
+
+    border-radius: 3px 10px;
+    color: #ffffff;
+    font-weight: 800;
+}
+
+.button-group {
+    display: inline-flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+    margin: 5%;
+
+}
+
+.button-group button {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+    border: 1px solid #ffffff;
+    border-radius: 10px 5px;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    display: flex;
+
+
+}
+
+.button-group button:hover,
+.active-button {
+    background: rgb(68, 139, 97);
+    background: linear-gradient(90deg, rgba(68, 139, 97, 1) 19%, rgba(0, 245, 73, 1) 38%, rgba(68, 139, 97, 1) 94%);
+    color: #ffffff;
+}
+
+.button-group a {
+    text-decoration: none;
+}
+
+#content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border-radius: 50px 50px 25px 25px;
+}
+
+#content h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+#content p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    font-display: initial;
+}
+
+#content img {
+    max-width: 70%;
+    height: auto;
+    margin-top: 1rem;
+    border-radius: 50px;
+}
+
+@media screen and (min-width: 30rem) {
+    .button-group {
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .button-group button {
+        margin-bottom: 1rem;
+    }
+
+    .content img {
+        max-width: 50%;
+    }
+}
+
+.social-media {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.social-media li {
+    margin-right: 1rem;
+}
